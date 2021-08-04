@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 5000px;
+}
+.nav{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    right: 15;
+    top: 15;
+    color: white;
+    text-align: center;
+}
+.nav i{
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 20px;
+}
+.header{
+    width: 100%;
+    height: 750px;
+    background-image: url('../img/bg-masthead.jpg');
+    background-size: cover;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.style{
+    text-transform: capitalize;
+    font-family: cursive;
+}
+
+.style h1{
+    font-size: 65px;
+    margin-bottom:10px;
+
+}
+
+.style button{
+    cursor: pointer;
+    padding: 20px 30px;
+    margin-top: 15px;
+    color: white;
+    text-transform: capitalize;
+    background-color: #1D809F;
+    border: none;
+    border-radius: 5px;
+}
+
+.style button:hover{
+    background-color: #196d87;
+}
+
+
+
+
+
+
+
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: #1D809F;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    padding: 25px 0px;
+}
+.content h2{
+    color: #ecb807;
+    padding-top: 20px;
+}
+
+.content-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    color: #1D809F;
+}
+.circle i{
+    line-height: 80px;
+    font-size: 25px;
+}
+
+.single{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media(max-width:767px){
+
+    .content-4{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: yellowgreen;
+    }
+
+    .content{
+        height: auto;
+    }
+
+}
+
+
+
+
+.link{
+    color: black;
+    text-align: center;
+    transition: all 3s;
+
+}
+
+
+
+.link:hover{
+    color: red;
+    font-size: 60px;
+}
